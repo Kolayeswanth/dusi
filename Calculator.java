@@ -105,5 +105,23 @@ class conditional{
         } else {
             System.out.println("Adult");
         }
+
+        //switch case
+        int day = 2;
+        switch (day) {
+            case 1:
+                System.out.println("it's Monday.");
+                break;
+            case 2:
+                System.out.println("it's Tuesday.");
+                break;
+            case 3:
+                System.out.println("it's Wednesday.");
+                break;
+            default:
+                System.out.println("No valid day selected.");
+                break;
+        }
     }
 }
+        
