@@ -1,3 +1,4 @@
+package class1;
 //basic calculator operations demonstrating arithmetic, comparison, logical operations,
 //increment/decrement operations, and conditional statements in Java.
 
@@ -22,6 +23,10 @@ public class Calculator{
         // Conditional statements
         conditional cond = new conditional();
         cond.checkEligibility();
+
+        // Loops
+        loops loopDemo = new loops();
+        loopDemo.demonstrateLoops();
     }
 }
 
@@ -125,6 +130,32 @@ class conditional{
                 System.out.println("No valid day selected.");
                 break;
         }
+    }
+}
+
+class loops{
+    void demonstrateLoops(){
+        // For loop
+        System.out.println("For Loop:");
+        for(int i=1; i<=5; i++){
+            System.out.println("Iteration: " + i);
+        }
+
+        // While loop
+        System.out.println("While Loop:");
+        int j = 1;
+        while(j <= 5){
+            System.out.println("Iteration: " + j);
+            j++;
+        }
+
+        // Do-While loop
+        System.out.println("Do-While Loop:");
+        int k = 1;
+        do{
+            System.out.println("Iteration: " + k);
+            k++;
+        } while(k <= 5);
     }
 }
         

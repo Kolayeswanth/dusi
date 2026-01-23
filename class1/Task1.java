@@ -1,3 +1,4 @@
+package class1;
 // Simple ATM withdrawal simulation demonstrating conditional statements in Java.
 // first check for correct PIN, then check for sufficient balance before allowing withdrawal.
 
