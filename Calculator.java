@@ -1,3 +1,6 @@
+//basic calculator operations demonstrating arithmetic, comparison, logical operations,
+//increment/decrement operations, and conditional statements in Java.
+
 public class Calculator{
     public static void main(String [] args){
         // Arithmetic operations
