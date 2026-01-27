@@ -1,6 +1,7 @@
 // Exam marks average using arrays
+// online shopping cart total using arrays
 
-public class task1{
+public class Task1{
     public static void main(String[] args){
         int[] marks = {80,80,76,91,67,69};
         int avg = 0;
