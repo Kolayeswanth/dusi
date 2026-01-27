@@ -5,7 +5,7 @@ public class task1{
         int[] marks = {80,80,76,91,67,69};
         int avg = 0;
 
-        for(int i = 0; i < marks.length-1; i++){
+        for(int i = 0; i <= marks.length-1; i++){
             avg+= marks[i];
         }
         //total marks
