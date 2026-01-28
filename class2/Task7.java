@@ -64,17 +64,15 @@ public class Task7 {
         //   32123
         //  4321234
         // 543212345
-        for(int i =1; i<=5;i++){
-            for(int j =i;j<=5;j++){
+        for(int i=1; i<=5; i++){
+            for(int j=i; j<5; j++){
                 System.out.print(" ");
             }
-            for(int j = 1;j<=i;j++){
-                System.out.print(j);
+            for(int k=i; k>=1; k--){
+                System.out.print(k);
             }
-            for(int j = 1;j<=i;j++){
-
-                if(j==1) continue;
-                System.out.print(j);
+            for(int l=2; l<=i; l++){
+                System.out.print(l);
             }
             System.out.println();
         }
