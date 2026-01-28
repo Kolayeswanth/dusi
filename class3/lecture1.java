@@ -1,11 +1,12 @@
-//basic functions with no return type and no parameters
+//static mrthods
+//basic methods with no return type and no parameters
 //writing a method with argument
 //method with return values and no arguments
 //method with return values and arguments
 
 package class3;
 
-public class lecture {
+public class lecture1 {
     static void sayHello(){
         System.out.println("Hello");
     }
