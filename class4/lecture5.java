@@ -23,6 +23,8 @@ public class lecture5 {
 
         // attaching address object to employee object using inherited method
         emp.setAddress(empAddr);
+
+        // setting name and age for the inherited variable which came to lecture4 from lecture1
         emp.setName("John");
         emp.setAge(30);
         System.out.println("Employee Name: " + emp.getName());
