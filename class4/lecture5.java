@@ -27,11 +27,13 @@ public class lecture5 {
         // setting name and age for the inherited variable which came to lecture4 from lecture1
         emp.setName("John");
         emp.setAge(30);
+
+        //getting employee adress and storing in a variable and acessing its through the variable
+        lecture3 address = emp.getAddress();
         System.out.println("Employee Name: " + emp.getName());
         System.out.println("Employee Age: " + emp.getAge());
         System.out.println("Employee Role: " + emp.getRole());
-        System.out.println("Employee Address: " + emp.getAddress().getHouseNo() + " " +
-        emp.getAddress().getStreet() + " " + emp.getAddress().getCity() + " " + emp.getAddress().getCountry());  
+        System.out.println("Employee Address: " + address.getHouseNo() + " " + address.getStreet() + " " + address.getCity() + " " + address.getCountry());  
         
     }
 }
