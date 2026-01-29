@@ -29,7 +29,7 @@ public class lecture3 {
     public int getHouseNo(){
         return this.houseNo;
     }
-    public String getStree(){
+    public String getStreet(){
         return this.Street;
     }
     public String getCity(){

@@ -23,7 +23,7 @@ public class lecture2 {
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
         // System.out.println("Address: " + person.getAddress());
-        System.out.println("Addres: "+person.getAddress().getHouseNo()+" "+person.getAddress().getStree()+" "+
+        System.out.println("Addres: "+person.getAddress().getHouseNo()+" "+person.getAddress().getStreet()+" "+
         person.getAddress().getCity()+" "+person.getAddress().getCountry());
     }
     
