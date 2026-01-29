@@ -9,11 +9,23 @@ public class lecture2 {
         lecture1 person = new lecture1();
         person.setName("alex");
         person.setAge(13);
-        person.setAddress("India");
+        // person.setAddress("India");
+
+        // lecture3 continution part written here
+        lecture3 addr = new lecture3();
+        addr.setHouseNo(12);
+        addr.setStreet("main street");
+        addr.setCity("new york");
+        addr.setCountry("USA");
+        // address object is set to person object
+        person.setAddress(addr);
 
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
-        System.out.println("Address: " + person.getAddress());
+        // System.out.println("Address: " + person.getAddress());
+        System.out.println("Addres: "+person.getAddress().getHouseNo()+" "+person.getAddress().getStree()+" "+
+        person.getAddress().getCity()+" "+person.getAddress().getCountry());
     }
     
 }
+ 

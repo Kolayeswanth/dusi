@@ -3,11 +3,10 @@
 // The continution part of lecture1.java is writter in lecture2.java
 
 package class4;
-
 public class lecture1 {
     private String name;
     private int age;
-    private String address;
+    private lecture3 address;// because lecture3 class having definition of address fields
 
     public void setName(String name){
         this.name = name;
@@ -17,17 +16,16 @@ public class lecture1 {
         this.age = age;
     }
 
-    public void setAddress(String address){
+    public void setAddress(lecture3 address){
         this.address = address;
     }
-
     public String getName(){
         return this.name;
     }
     public int getAge(){
         return this.age;
     }
-    public String getAddress(){
+    public lecture3 getAddress(){
         return this.address;
     }
 }
