@@ -6,12 +6,14 @@ class payment{
     }
 }
 class upi extends payment{
+    @Override
     void pay(){
         System.out.println("Payment done using UPI");
     }
 }
 
 class creditcard extends payment{
+    @Override
     void pay(){
         System.out.println("Payment done using credit card");
     }
