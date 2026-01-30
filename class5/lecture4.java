@@ -43,13 +43,16 @@ class Dog extends Animal implements Pet, Humans{
     }
 }
 
-public class lecture4 {
+public class lecture4 extends lecture1 {
     public static void main(String[] args){
-        Dog myDog = new Dog();
-        myDog.sound(); // this will call the sound method of Animal class
-        myDog.play(); // this will call the play method of Dog class
+        Dog d1 = new Dog();
+        d1.play(); // this will call play method of Dog class
+        d1.sound(); // this will call sound method of Animal class
 
-        Cat myCat = new Cat();
-        myCat.play(); // this will call the play method of Cat class
+        Cat c1 = new Cat();
+        c1.play(); // this will call play method of Cat class
+
+        a human = new a();
+        human.play(); // this will call play method of a class
     }
 }
