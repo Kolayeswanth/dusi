@@ -43,7 +43,7 @@ class Dog extends Animal implements Pet, Humans{
     }
 }
 
-public class lecture4 extends lecture1 {
+public class lecture4 {
     public static void main(String[] args){
         Dog d1 = new Dog();
         d1.play(); // this will call play method of Dog class
