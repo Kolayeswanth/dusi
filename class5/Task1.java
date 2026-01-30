@@ -3,6 +3,8 @@
 
 class Sum {
     int sum = 0;
+
+    // Method to calculate the sum of multiples of 3 or 5 below a given number
     public int Result(int a){
         for(int i = 1; i <= a; i++){
              if(checkDivisibleby3or5(i)){
@@ -12,7 +14,8 @@ class Sum {
         
         return sum;
     }
-
+    
+    // Method to check if a number is divisible by 3 or 5
     boolean checkDivisibleby3or5(int a){
         if(a % 3 == 0 || a % 5 == 0){
             return true;
