@@ -28,6 +28,10 @@ public class lecture5 {
         catch(ArithmeticException e){
             System.out.println("Exception caught: "+e);
         }
+        // when we don't know the name of the exception then we can directly call Exception
+        catch(Exception e){
+            System.out.println("Exception un-known"+e);
+        }
         System.out.println("Program continues after exception handling.");
     }
     
