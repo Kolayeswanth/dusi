@@ -1,3 +1,5 @@
+// main class for lecture2 and lecture3.
+
 public class lecture4 {
     public static void main(String[] args){
         lecture2 student1 = new lecture2("1", "Alice");
