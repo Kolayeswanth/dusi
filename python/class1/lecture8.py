@@ -24,3 +24,6 @@ print(text.index("programming")) # 7 - returns starting index of substring
 print(text.count("a")) # 1 - counts occurrences of substring
 print(text.startswith("python")) # True - returns true if string starts with substring
 print(text.endswith("programming")) # True - return true if string ends with substring
+
+print(text[1:12:2]) # yhn rgamn - slicing with step
+print(text[::-1]) # reverse string
