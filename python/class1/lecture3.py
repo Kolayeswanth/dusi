@@ -1,3 +1,5 @@
+#list demonstration
+
 fruits = ["apple", "banana", "cherry"]
 fruits[1] = "blueberry"
 print(fruits)  # Output: ['apple', 'blueberry', 'cherry']
