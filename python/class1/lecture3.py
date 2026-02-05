@@ -17,3 +17,4 @@ print(fruits)  # Output: ['blueberry', 'cherry', 'kiwi']
 fruits.reverse()
 print(fruits)  # Output: ['kiwi', 'cherry', 'blueberry']
 print(len(fruits))  # Output: 3 
+print("grape" in fruits)  # Output: False
