@@ -1,3 +1,5 @@
+# This module provides basic arithmetic operations: addition, subtraction, multiplication, and division.
+
 def add(a,b):
     return a + b
 def subtract(a,b):
