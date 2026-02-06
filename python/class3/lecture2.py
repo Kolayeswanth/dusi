@@ -14,3 +14,13 @@ else:
     print("Result is:", int(result))
 finally:
     print("This will always execute.")
+
+# raise an exception to throw an exception
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b  
+try:
+    divide(10, 0)
+except ValueError as e:
+    print("Caught an exception:", e)
