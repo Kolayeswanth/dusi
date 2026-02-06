@@ -1,4 +1,4 @@
-# modules 
+# This code demonstrates the use of built-in modules in Python, such as math, random, and datetime, as well as a custom module named 'module' that contains basic arithmetic functions.
 
 import math
 
