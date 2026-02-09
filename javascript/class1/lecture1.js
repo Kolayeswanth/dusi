@@ -37,3 +37,4 @@ console.log("The value of v8 is: " + v8());
 console.log("type of v8 is: " + typeof v8); 
 
 console.log(`v1 = ${v1}`);
+console.log(`v1 squared = ${v1*v1}`);
