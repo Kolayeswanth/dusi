@@ -15,7 +15,7 @@
                 document.getElementById("demo").innerHTML = "Hello JavaScript!";
             }
             function greet(){
-                let val = document.getElementById("name").value;
+                let val = document.getElementById("name").value || "Guest";
                 document.getElementById("greeting").innerHTML = val;
             }
         </script>

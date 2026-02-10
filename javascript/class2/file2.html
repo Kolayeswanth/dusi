@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>second page</title>
+
+    </head>
+    <body>
+        <p id = "text">Hover On Me</p>
+        <script>
+            let t = document.getElementById('text');
+            t.addEventListener('mouseover',()=>{
+                t.style.color = "salmon";
+                t.style.borderColor = 'black';
+                t.style.borderWidth = "1px";
+                t.style.borderStyle = "solid";
+                t.style.padding = "5px";
+                t.align = "center";
+                t.style.borderRadius = "5px";
+
+        });
+        t.addEventListener('mouseout',()=>{
+            t.style.color = 'blue';
+            t.style.borderStyle = "none";
+        });
+        </script>
+    </body>
+
+</html>
