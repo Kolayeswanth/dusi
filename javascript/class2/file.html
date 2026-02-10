@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lecture 1</title>
+    </head>
+    <body>
+
+        <h1 id="demo">Lecture 1: JavaScript Basics</h1>
+        <button onclick="changeText()">Click me</button>
+        <input type = "text" id = "name" placeholder = "Enter your name">
+        <button onclick="greet()">Greet</button>
+        <p id="greeting"></p>
+        <script>
+            function changeText(){
+                document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            }
+            function greet(){
+                let val = document.getElementById("name").value;
+                document.getElementById("greeting").innerHTML = val;
+            }
+        </script>
+    </body>
+</html>
