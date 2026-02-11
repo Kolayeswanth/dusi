@@ -7,21 +7,50 @@
         table{
             width: 50%;
             border-collapse: collapse;
+            margin: 20px auto;
+            background-color: antiquewhite;
+
         }
         th, td{
             padding: 8px;
-            text-align: left;
+            text-align: center;
         }
         th{
-            background-color: #f2f2f2;
+            background-color: #dc6e29;
+            color:aliceblue;
+        }
+        .button1{
+            color: #000000;
+            background-color: rgb(180, 180, 248);
+            padding: 8px;
+            border: solid;
+            border-width: 2px ;
+            border-radius: 8px;
+            border-color: #000000;
+
+        }
+        .input{
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #886a6a;
         }
     </style>
-    <body>
-        <h2><i>User Management Crud</i></h2>
+    <body >
+        <div>
+        <h2 style="display: flex; color: #42d611; justify-content: center;"><i>User Management Crud</i></h2>
         <hr>
+        </div>
         <h4>Enter Information</h4>
-        <input type="text" id="name">
-        <button onclick="addUser()">Add User</button>
+        <div class="input">
+            <input type="text" id="name" placeholder="Enter User Name">
+            <button onclick="addUser()" class="button1">Add User</button>
+        </div>
         <hr>
         <table div = "userTable" >
             <thead div = "userTableHead">
