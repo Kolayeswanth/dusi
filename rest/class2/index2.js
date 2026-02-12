@@ -9,7 +9,11 @@ const users = [
     {id:2,name:"Dinesh",mobile:9876543210,age:20}
 ]
 
-// Routes 
+// Routes
+app.get('/',(req,res)=>{
+    res.send('Welcome to the User Management API');
+});
+ 
 app.post('/addUser',(req,res)=>{
     const user = {
         id : users.length+1,
@@ -50,4 +54,4 @@ app.delete('/deleteUser/:id',(req,res)=>{
 
 app.listen(port,()=>{
     console.log(`App listening on the port http://localhost:${port}`);
-}); 
+});
