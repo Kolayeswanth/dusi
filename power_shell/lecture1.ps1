@@ -35,3 +35,5 @@ foreach($n in $names)
 {
     Write-Output "Name: $n"
 }
+
+Get-Process | Select-Object Name, Id, CPU
