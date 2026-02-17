@@ -6,7 +6,7 @@ const { addUser, getUser } = require('./user');
 app.get('/',(req,res)=>{
     res.send('Hello World!');
 });
-\
+
 app.get('/name',(req,res)=>{
     res.send('My name is Dusi');
 });
