@@ -1,2 +1,5 @@
 2026-02-18T06:02:43.191Z [INFO]: Server is running on port 3000
 2026-02-18T06:03:08.152Z [INFO]: Received a request to the root endpoint
+2026-02-18T07:18:46.820Z [INFO]: This is an info message
+2026-02-18T07:18:46.822Z [WARN]: This is a warning message
+2026-02-18T07:18:46.822Z [ERROR]: This is an error message
