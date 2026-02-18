@@ -27,3 +27,22 @@ function add{
 }
 $result = add -num1 5 -num2 10
 Write-Output "The sum is: $result"
+
+# 4.Try Catch in Functions
+function Divide {
+    param(
+        [int]$numerator,
+        [int]$denominator
+    )
+    try {
+        if($denominator -eq 0) {
+            throw "Denominator cannot be zero."
+        }
+        return $numerator / $denominator
+    }
+    catch {
+        Write-Output "Error: $_"
+    }
+}
+$result = Divide -numerator 10 -denominator 0
+Write-Output "Result: $result"
