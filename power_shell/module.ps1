@@ -1,5 +1,5 @@
 # Importing module
-Import-Module -Name .\module\module.ps1
+. .\module\module.ps1
 # Using functions from the module
 $name = Get-MyName
 $age = Get-MyAge

@@ -5,5 +5,3 @@ function Get-MyName {
 function Get-MyAge {
     return 5
 }
-
-Export-ModuleMember -Function Get-MyName, Get-MyAge
