@@ -1,0 +1,35 @@
+Activity 1: 
+Design an algorithm to accept 10 integer elements for an array and print the sum of all the elements. 
+Activity 2: 
+Design an algorithm to accept 20 integer elements for an array and print the maximum 3 and minimum 3 elements from the array. 
+Note: Sorting of array elements are not expected as part of this activity. 
+Activity 3: 
+Design an algorithm to accept 10 integer elements for an array and then rearrange the elements in the array in reverse order. The reversed array must be displayed as output. 
+Activity 4: 
+Design an algorithm which accepts a set of N (consider N to be 30) student’s examination marks (in the range of 0 to 100). Then make a count of the number of students that obtain each possible mark (i.e.; 
+count of how many students scored 0, count of how many students scored 1, …. till count of how many students scored 100) 
+Activity 5: 
+Modify the algorithm written in Activity 4 in order to get count of students in a specific range of marks as defined below. 
+Range of marks: 
+0 to 10% 
+11% to 20% 
+; 
+; 
+; 
+91% to 100%
+
+
+ Activity 6: 
+Design an algorithm to calculate the factorial of a number N. The value of N is provided as an input by the user. 
+Activity 7: 
+Design an algorithm which accepts 10 integer values, calculates the average and prints it.
+
+Activity 8: 
+A train running at the speed of x km/hr crosses a pole in y seconds. Design an algorithm to accept x and y as inputs from the user and then calculate the length of the train. 
+Note: values of x and y must be positive and non-zero. 
+Activity 9: 
+A train X m long passes a man, running at 5 km/hr in the same direction in which the train is going, in Y seconds. Design an algorithm to accept the values of X and Y as input from the user and then calculate the speed of the train. 
+Note: values of X and Y must be positive and non-zero.
+Activity 10: 
+Two goods train each 500 m long, are running in opposite directions on parallel tracks. Their speeds are X km/hr and Y km/hr respectively. Design an algorithm to accept the values of speed X and Y from the user and find the time taken by the slower train to pass the driver of the faster one. 
+Note: values of X and Y must be positive and non-zero 

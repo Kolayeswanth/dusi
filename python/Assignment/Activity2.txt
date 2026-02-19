@@ -1,0 +1,20 @@
+Activity 6:
+Design an algorithm to count the number of digits in a given number.
+Example –
+If the number entered is 12345
+The output is 5 digits
+In the number entered is 123
+The output is 3 digits
+
+Activity 7:
+Design an algorithm which accepts a set of N (consider N to be 30) student’s examination marks (in the range of 0 to 100). Then make a count of the number of students that obtain each possible mark (i.e.; 
+count of how many students scored 0, count of how many students scored 1, …. till count of how many students scored 100) 
+
+Activity 8:
+Design an algorithm which accepts a decimal integer and then displays its corresponding binary representation.
+
+Activity 9:
+Design an algorithm which accepts a binary representation of a number and then displays its corresponding decimal equivalent.
+
+Activity 10:
+Design an algorithm which accepts a number from the user and displays its smallest exact divisor other than one.
